@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Smart Restaurant Platform product showcase by Ousmane Traoré.">
+  <title>Smart Restaurant Platform — Product Showcase</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav shell">
+      <a class="brand" href="#top">
+        <img src="assets/logo-256.png" alt="Bamako Délices logo">
+        <span>Smart Restaurant Platform</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#screens">Screens</a>
+        <a href="#architecture">Architecture</a>
+        <a href="https://github.com/Ousmane-Tr25">Author</a>
+      </div>
+    </nav>
+
+    <div class="hero-grid shell" id="top">
+      <div>
+        <p class="eyebrow">OFFICIAL STABLE RELEASE · v1.0.0</p>
+        <h1>One platform for the complete restaurant workflow.</h1>
+        <p class="lead">Digital ordering, kitchen operations, POS, reservations, loyalty, delivery management, courier routing, and customer tracking—built with FastAPI, PostgreSQL, Docker, and a mobile-first PWA.</p>
+        <div class="actions">
+          <a class="button primary" href="#screens">View product</a>
+          <a class="button secondary" href="https://github.com/Ousmane-Tr25">GitHub profile</a>
+        </div>
+        <div class="metrics">
+          <div><strong>82</strong><span>automated tests</span></div>
+          <div><strong>5</strong><span>interface languages</span></div>
+          <div><strong>72</strong><span>templates verified</span></div>
+          <div><strong>PWA</strong><span>Android & iPhone</span></div>
+        </div>
+      </div>
+      <div class="hero-shot">
+        <img src="assets/screenshots/menu-desktop.png" alt="Digital menu screenshot">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section shell" id="features">
+      <p class="eyebrow">PRODUCT SCOPE</p>
+      <h2>Designed beyond the online menu.</h2>
+      <div class="feature-grid">
+        <article><span>01</span><h3>Customer ordering</h3><p>Responsive menu, four-step checkout, promotions, loyalty bonuses, payments, receipts, history, reviews, and support.</p></article>
+        <article><span>02</span><h3>Restaurant operations</h3><p>Dashboard, kitchen board, cashier, printing, reservations, menu, stock, recipes, suppliers, costs, margins, and reports.</p></article>
+        <article><span>03</span><h3>Courier delivery</h3><p>Courier acceptance, assignment protection, route status, GPS updates, ETA, and customer-facing delivery progress.</p></article>
+        <article><span>04</span><h3>Production structure</h3><p>PostgreSQL, Docker, role-based access, password security, audit events, backups, restore verification, and release gates.</p></article>
+      </div>
+    </section>
+
+    <section class="section muted" id="screens">
+      <div class="shell">
+        <p class="eyebrow">PRODUCT SCREENS</p>
+        <h2>Desktop operations and mobile customer flows.</h2>
+        <div class="gallery desktop-gallery">
+          <figure><img src="assets/screenshots/admin-dashboard.png" alt="Admin dashboard"><figcaption>Manager dashboard</figcaption></figure>
+          <figure><img src="assets/screenshots/menu-desktop.png" alt="Digital menu"><figcaption>Digital menu</figcaption></figure>
+        </div>
+        <div class="gallery mobile-gallery">
+          <figure><img src="assets/screenshots/mobile-checkout.png" alt="Mobile checkout"><figcaption>Step-by-step mobile checkout</figcaption></figure>
+          <figure><img src="assets/screenshots/mobile-kitchen.png" alt="Mobile kitchen workflow"><figcaption>Kitchen workflow on a compact screen</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="architecture">
+      <p class="eyebrow">ARCHITECTURE</p>
+      <h2>A single operational core for every role.</h2>
+      <div class="architecture">
+        <div class="node">Customer PWA</div>
+        <div class="node">Manager & staff</div>
+        <div class="node">Kitchen & cashier</div>
+        <div class="node">Courier PWA</div>
+        <div class="core">FastAPI application<br><small>Jinja2 · SQLAlchemy · security · business rules</small></div>
+        <div class="database">PostgreSQL</div>
+        <div class="integrations">Configurable integrations<br><small>payment · SMS · push · maps</small></div>
+      </div>
+    </section>
+
+    <section class="section callout">
+      <div class="shell callout-grid">
+        <div>
+          <p class="eyebrow">SOURCE & COMMERCIAL USE</p>
+          <h2>Full source maintained privately.</h2>
+          <p>The complete commercial repository can be shared selectively for recruitment, code review, or partnership evaluation. This public showcase contains no credentials, customer data, backups, or strategic source code.</p>
+        </div>
+        <a class="button primary" href="https://github.com/Ousmane-Tr25">Contact via GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <span>© 2026 Ousmane Traoré · Smart Restaurant Platform</span>
+    <a href="README_FR.md">Résumé français</a>
+  </footer>
+</body>
+</html>
