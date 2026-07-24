@@ -5,12 +5,18 @@
 
 **A production-oriented restaurant operations platform covering digital ordering, kitchen workflows, POS, reservations, loyalty, delivery management, and courier tracking.**
 
-`FastAPI` · `PostgreSQL` · `Docker` · `PWA` · `5 languages` · `v1.0.0 stable`
+`FastAPI` · `PostgreSQL` · `Docker` · `PWA` · `5 languages` · `v1.0.2 stable`
 
-[Product website](https://ousmane-tr25.github.io/smart-restaurant-platform-showcase/) · [Author profile](https://github.com/Ousmane-Tr25)
+[Live demo](https://bamako-delices-demo.onrender.com/menu) · [Product website](https://ousmane-tr25.github.io/smart-restaurant-platform-showcase/) · [Author profile](https://github.com/Ousmane-Tr25)
 </div>
 
 > This public repository is a product showcase. The complete commercial source code is maintained in a private repository and can be reviewed by recruiters or potential partners on request.
+
+## Live demo
+
+Open the public customer experience: **[bamako-delices-demo.onrender.com/menu](https://bamako-delices-demo.onrender.com/menu)**
+
+The public deployment uses a dedicated cloud PostgreSQL database and HTTPS. Payment, SMS, and push integrations remain in demonstration mode. Testers should use fictitious names, phone numbers, and delivery addresses. The free hosting instance may need a short startup delay after inactivity.
 
 ## Product overview
 
@@ -94,9 +100,9 @@ flowchart LR
 
 ## Quality status
 
-The official `v1.0.0` release completed the project release gate with:
+The stable `v1.0.2` release completed the project release gate with:
 
-- **82 automated tests passed**;
+- **91 automated tests passed**;
 - **72 Jinja templates compiled**;
 - health, readiness, version, security, reliability, and release-file audits;
 - verified exclusion of environment files, database dumps, logs, and customer data from release archives.
