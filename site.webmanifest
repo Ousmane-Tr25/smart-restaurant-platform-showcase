@@ -1,0 +1,15 @@
+{
+  "name": "Smart Restaurant Platform — Public Showcase",
+  "short_name": "SR Platform",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fff8ee",
+  "theme_color": "#0d1b2d",
+  "icons": [
+    {
+      "src": "assets/favicon.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ousmane-tr25.github.io/smart-restaurant-platform-showcase/sitemap.xml

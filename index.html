@@ -3,118 +3,200 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Smart Restaurant Platform product showcase by Ousmane Traoré.">
-  <title>Smart Restaurant Platform — Product Showcase</title>
+  <meta name="description" content="Smart Restaurant Platform v2.1.1: a white-label restaurant operations platform with ordering, staff workflows, secure customer accounts, analytics, notifications and payment connectors.">
+  <meta name="theme-color" content="#0d1b2d">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Smart Restaurant Platform — v2.1.1">
+  <meta property="og:description" content="White-label restaurant operations, ordering, secure accounts, analytics, notifications and payment connectors.">
+  <meta property="og:url" content="https://ousmane-tr25.github.io/smart-restaurant-platform-showcase/">
+  <meta property="og:image" content="https://ousmane-tr25.github.io/smart-restaurant-platform-showcase/assets/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://ousmane-tr25.github.io/smart-restaurant-platform-showcase/">
+  <link rel="alternate" hreflang="en" href="https://ousmane-tr25.github.io/smart-restaurant-platform-showcase/">
+  <link rel="alternate" hreflang="fr" href="https://ousmane-tr25.github.io/smart-restaurant-platform-showcase/fr.html">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <title>Smart Restaurant Platform — Public Product Showcase</title>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Smart Restaurant Platform", "applicationCategory": "BusinessApplication", "operatingSystem": "Web, PWA", "softwareVersion": "2.1.1", "description": "White-label restaurant ordering and operations platform.", "author": {"@type": "Person", "name": "Ousmane Traoré", "url": "https://github.com/Ousmane-Tr25"}, "url": "https://ousmane-tr25.github.io/smart-restaurant-platform-showcase/"}</script>
 </head>
 <body>
-  <header class="hero">
-    <nav class="nav shell">
-      <a class="brand" href="#top">
-        <img src="assets/logo-256.png" alt="Bamako Délices logo">
-        <span>Smart Restaurant Platform</span>
-      </a>
-      <div class="nav-links">
-        <a href="https://bamako-delices-demo.onrender.com/menu" target="_blank" rel="noopener noreferrer">Live demo</a>
-        <a href="#features">Features</a>
-        <a href="#screens">Screens</a>
-        <a href="#architecture">Architecture</a>
-        <a href="https://github.com/Ousmane-Tr25" target="_blank" rel="noopener noreferrer">Author</a>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" id="top">
+  <nav class="nav shell" aria-label="Primary navigation">
+    <a class="brand" href="#top"><img src="assets/logo-smart-restaurant.svg" alt=""><span>Smart Restaurant Platform</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <div class="nav-links" id="site-nav">
+<a href="#product">Product</a>
+<a href="#demos">Demos</a>
+<a href="#design">Design Studio</a>
+<a href="#quality">Quality</a>
+<a href="fr.html" lang="fr">FR</a>
+</div>
+  </nav>
+  <div class="hero shell">
+    <div class="hero-copy">
+      <div class="badge-row"><span class="badge accent">Stable v2.1.1</span><span class="badge">Commercial web platform</span></div>
+      <p class="eyebrow">INTERNATIONAL · WHITE-LABEL · RESTAURANT OPERATIONS</p>
+      <h1>One platform from the customer menu to the kitchen and delivery workflow.</h1>
+      <p class="lead">A production-structured web platform for independent restaurant deployments: public ordering, secure customer accounts, staff workspaces, payments, loyalty, analytics, privacy and configurable branding.</p>
+      <div class="actions">
+        <a class="button primary" href="https://bamako-delices-demo.onrender.com/menu?v=211" target="_blank" rel="noopener noreferrer">Open Mali demo</a>
+        <a class="button secondary" href="https://smart-restaurant-ru-test.onrender.com/menu?v=211" target="_blank" rel="noopener noreferrer">Open Russia demo</a>
+        <a class="button ghost" href="https://github.com/Ousmane-Tr25" target="_blank" rel="noopener noreferrer">Author profile</a>
       </div>
-    </nav>
-
-    <div class="hero-grid shell" id="top">
-      <div>
-        <p class="eyebrow">OFFICIAL STABLE RELEASE · v1.0.2</p>
-        <h1>One platform for the complete restaurant workflow.</h1>
-        <p class="lead">Digital ordering, kitchen operations, POS, reservations, loyalty, delivery management, courier routing, and customer tracking—built with FastAPI, PostgreSQL, Docker, and a mobile-first PWA.</p>
-        <div class="actions">
-          <a class="button primary" href="https://bamako-delices-demo.onrender.com/menu" target="_blank" rel="noopener noreferrer">Open live demo</a>
-          <a class="button secondary" href="#screens">View product screens</a>
-        </div>
-        <div class="metrics">
-          <div><strong>91</strong><span>automated tests</span></div>
-          <div><strong>5</strong><span>interface languages</span></div>
-          <div><strong>72</strong><span>templates verified</span></div>
-          <div><strong>PWA</strong><span>Android & iPhone</span></div>
-        </div>
-      </div>
-      <div class="hero-shot">
-        <img src="assets/screenshots/menu-desktop.png" alt="Digital menu screenshot">
+      <p class="demo-note">Public demo services may need a short wake-up delay after inactivity. Use fictitious personal data only.</p>
+      <div class="metrics" aria-label="Quality metrics">
+        <div><strong>216</strong><span>automated tests passed</span></div>
+        <div><strong>85</strong><span>Jinja templates compiled</span></div>
+        <div><strong>5</strong><span>public interface languages</span></div>
+        <div><strong>PASS</strong><span>official release gate</span></div>
       </div>
     </div>
-  </header>
+    <figure class="hero-shot">
+      <img src="assets/screenshots/product-customization.webp" alt="Product detail dialog with supplements and spice-level options">
+      <figcaption>Configurable menu experience with server-validated extras.</figcaption>
+    </figure>
+  </div>
+</header>
 
-  <main>
-    <section class="demo-section">
-      <div class="shell demo-panel">
-        <div>
-          <p class="eyebrow">PUBLIC HTTPS DEMO</p>
-          <h2>Test the customer ordering flow online.</h2>
-          <p>Open the digital menu, add dishes, complete the four-step checkout, and follow a demonstration order. Payments, SMS, and push notifications remain in demo mode. Please use fictitious personal information.</p>
-        </div>
-        <a class="button primary" href="https://bamako-delices-demo.onrender.com/menu" target="_blank" rel="noopener noreferrer">Launch the demo</a>
+<main id="main">
+  <section class="section shell" id="product">
+    <p class="eyebrow">PRODUCT SCOPE</p>
+    <h2>More than a digital menu.</h2>
+    <p class="section-intro">The platform links the public customer experience to the operational workspaces used by owners, cashiers, kitchen staff, couriers and support teams.</p>
+    <div class="feature-grid">
+      <article><span>01</span><h3>Customer ordering</h3><p>Responsive menu, configurable guest checkout, OTP-secured account, reservations, loyalty, support, reviews and order tracking.</p></article>
+      <article><span>02</span><h3>Restaurant operations</h3><p>Orders, cashier, kitchen board, delivery, staff roles, stock, recipes, suppliers, reports, costs and margin analysis.</p></article>
+      <article><span>03</span><h3>White-label control</h3><p>Brand, country, currency, languages, fonts, colors, corners, borders, image ratios, focal points and public-access policy.</p></article>
+      <article><span>04</span><h3>Production structure</h3><p>FastAPI, PostgreSQL, Alembic, Docker, PWA, release gates, encrypted backups, CSRF protection and audit logging.</p></article>
+    </div>
+  </section>
+
+  <section class="section soft" id="demos">
+    <div class="shell">
+      <p class="eyebrow">LIVE DEMONSTRATIONS</p>
+      <h2>Two installations, two regional configurations.</h2>
+      <div class="demo-grid">
+        <article class="demo-card mali">
+          <div class="demo-card-head"><img src="assets/logo-256.png" alt="Bamako Délices logo"><div><p class="kicker">MALI · XOF</p><h3>Bamako Délices</h3></div></div>
+          <p>Public menu, guest ordering, Brevo email OTP, secure customer account, Web Push and payment at the restaurant/on delivery.</p>
+          <ul class="status-list"><li><span class="dot ok"></span>Email OTP functional</li><li><span class="dot ok"></span>Web Push functional</li><li><span class="dot warn"></span>PayDunya temporarily disabled</li></ul>
+          <a class="button primary" href="https://bamako-delices-demo.onrender.com/menu?v=211" target="_blank" rel="noopener noreferrer">Open Mali demo</a>
+        </article>
+        <article class="demo-card russia">
+          <div class="demo-card-head"><img src="assets/logo-smart-restaurant.svg" alt=""><div><p class="kicker">RUSSIA · RUB</p><h3>Smart Restaurant RU Test</h3></div></div>
+          <p>Russian regional setup with YooKassa sandbox checkout, server-side confirmation, webhooks and tested partial/full refunds.</p>
+          <ul class="status-list"><li><span class="dot ok"></span>YooKassa sandbox validated</li><li><span class="dot ok"></span>RUB checkout and refunds</li><li><span class="dot info"></span>No real money in test mode</li></ul>
+          <a class="button primary" href="https://smart-restaurant-ru-test.onrender.com/menu?v=211" target="_blank" rel="noopener noreferrer">Open Russia demo</a>
+        </article>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section shell" id="features">
-      <p class="eyebrow">PRODUCT SCOPE</p>
-      <h2>Designed beyond the online menu.</h2>
-      <div class="feature-grid">
-        <article><span>01</span><h3>Customer ordering</h3><p>Responsive menu, four-step checkout, promotions, loyalty bonuses, payments, receipts, history, reviews, and support.</p></article>
-        <article><span>02</span><h3>Restaurant operations</h3><p>Dashboard, kitchen board, cashier, printing, reservations, menu, stock, recipes, suppliers, costs, margins, and reports.</p></article>
-        <article><span>03</span><h3>Courier delivery</h3><p>Courier acceptance, assignment protection, route status, GPS updates, ETA, and customer-facing delivery progress.</p></article>
-        <article><span>04</span><h3>Production structure</h3><p>PostgreSQL, Docker, role-based access, password security, audit events, backups, restore verification, and release gates.</p></article>
+  <section class="section shell" id="design">
+    <div class="split">
+      <div>
+        <p class="eyebrow">DESIGN STUDIO</p>
+        <h2>Restaurant branding without editing CSS.</h2>
+        <p>The owner can configure colors, typography, card and button corners, border thickness, shadows, image ratios, cover/contain mode, focal position and recommendation-carousel behavior.</p>
+        <ul class="check-list"><li>Global design tokens with server-side validation</li><li>Per-item image fit, position, zoom and alternative text</li><li>Configurable supplements and spice levels</li><li>Separate OWNER/ADMIN access policy for public menu and guest checkout</li></ul>
       </div>
-    </section>
-
-    <section class="section muted" id="screens">
-      <div class="shell">
-        <p class="eyebrow">PRODUCT SCREENS</p>
-        <h2>Desktop operations and mobile customer flows.</h2>
-        <div class="gallery desktop-gallery">
-          <figure><img src="assets/screenshots/admin-dashboard.png" alt="Admin dashboard"><figcaption>Manager dashboard</figcaption></figure>
-          <figure><img src="assets/screenshots/menu-desktop.png" alt="Digital menu"><figcaption>Digital menu</figcaption></figure>
-        </div>
-        <div class="gallery mobile-gallery">
-          <figure><img src="assets/screenshots/mobile-checkout.png" alt="Mobile checkout"><figcaption>Step-by-step mobile checkout</figcaption></figure>
-          <figure><img src="assets/screenshots/mobile-kitchen.png" alt="Mobile kitchen workflow"><figcaption>Kitchen workflow on a compact screen</figcaption></figure>
-        </div>
+      <div class="image-stack">
+        <figure><img src="assets/screenshots/menu-card-rub.webp" alt="Restaurant menu card with properly cropped food image"><figcaption>Consistent card media.</figcaption></figure>
+        <figure><img src="assets/screenshots/commercial-settings.webp" alt="Commercial language and privacy configuration screen"><figcaption>White-label languages and privacy settings.</figcaption></figure>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section shell" id="architecture">
-      <p class="eyebrow">ARCHITECTURE</p>
-      <h2>A single operational core for every role.</h2>
-      <div class="architecture">
-        <div class="node">Customer PWA</div>
-        <div class="node">Manager & staff</div>
-        <div class="node">Kitchen & cashier</div>
-        <div class="node">Courier PWA</div>
-        <div class="core">FastAPI application<br><small>Jinja2 · SQLAlchemy · security · business rules</small></div>
-        <div class="database">PostgreSQL</div>
-        <div class="integrations">Configurable integrations<br><small>payment · SMS · push · maps</small></div>
+  <section class="section dark" id="operations">
+    <div class="shell">
+      <p class="eyebrow">OPERATIONS & ANALYTICS</p>
+      <h2>Operational data becomes management insight.</h2>
+      <div class="feature-grid dark-grid">
+        <article><h3>Revenue and margin</h3><p>Orders, revenue, average basket, ingredient costs, gross margin, expenses and net performance.</p></article>
+        <article><h3>Products and demand</h3><p>Best sellers, quantities, product revenue, frequently ordered combinations, availability and stock indicators.</p></article>
+        <article><h3>Customers and loyalty</h3><p>Purchase history, top customers, loyalty balances, reviews, recommendation rate and retention-oriented signals.</p></article>
+        <article><h3>Explainable recommendations</h3><p>Rule-based suggestions using history, popular combinations, complementary categories, featured dishes and availability.</p></article>
       </div>
-    </section>
+      <p class="fine-print">Current analytics are descriptive and decision-support oriented. Predictive machine learning is a future data project, not a claim of the current release.</p>
+    </div>
+  </section>
 
-    <section class="section callout">
-      <div class="shell callout-grid">
-        <div>
-          <p class="eyebrow">SOURCE & COMMERCIAL USE</p>
-          <h2>Full source maintained privately.</h2>
-          <p>The complete commercial repository can be shared selectively for recruitment, code review, or partnership evaluation. This public showcase contains no credentials, customer data, backups, or strategic source code.</p>
-        </div>
-        <div class="actions">
-          <a class="button primary" href="https://bamako-delices-demo.onrender.com/menu" target="_blank" rel="noopener noreferrer">Open live demo</a>
-          <a class="button secondary" href="https://github.com/Ousmane-Tr25" target="_blank" rel="noopener noreferrer">Contact via GitHub</a>
-        </div>
+  <section class="section shell" id="screens">
+    <p class="eyebrow">CURRENT PRODUCT SCREENS</p>
+    <h2>Public ordering, privacy and regional payments.</h2>
+    <div class="gallery">
+      <figure class="wide"><img src="assets/screenshots/menu-bamako.webp" alt="Bamako menu cards in FCFA"><figcaption>Mali demo menu in XOF/FCFA.</figcaption></figure>
+      <figure><img src="assets/screenshots/privacy-workflow.webp" alt="Administrative privacy request workflow"><figcaption>Privacy export and anonymization workflow.</figcaption></figure>
+      <figure class="portrait"><img src="assets/screenshots/yookassa-sandbox.webp" alt="YooKassa test checkout with explicit sandbox notice"><figcaption>YooKassa sandbox — no real money.</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="section soft" id="accounts">
+    <div class="shell split compact">
+      <div>
+        <p class="eyebrow">CUSTOMER ACCESS MODEL</p>
+        <h2>Public menu, optional account, protected personal data.</h2>
       </div>
-    </section>
-  </main>
+      <div class="policy-cards">
+        <article><strong>Public visitor</strong><span>Can browse the menu when the restaurant enables public access.</span></article>
+        <article><strong>Guest customer</strong><span>Can order without an account when guest checkout is enabled.</span></article>
+        <article><strong>Verified customer</strong><span>Uses one-time-code authentication to access personal orders, reservations, loyalty and support.</span></article>
+      </div>
+    </div>
+  </section>
 
-  <footer class="footer shell">
-    <span>© 2026 Ousmane Traoré · Smart Restaurant Platform</span>
-    <div class="footer-links"><a href="https://bamako-delices-demo.onrender.com/menu" target="_blank" rel="noopener noreferrer">Live demo</a><a href="README_FR.md">Résumé français</a></div>
-  </footer>
-</body>
-</html>
+  <section class="section shell" id="integrations">
+    <p class="eyebrow">INTEGRATIONS — HONEST STATUS</p>
+    <h2>Every restaurant connects its own provider account.</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Capability</th><th>Status in v2.1.1</th><th>Commercial note</th></tr></thead>
+        <tbody>
+          <tr><td>Brevo email OTP</td><td><span class="status ok">Functional</span></td><td>Used by the Mali demonstration.</td></tr>
+          <tr><td>Web Push VAPID</td><td><span class="status ok">Functional</span></td><td>Subscriptions encrypted at rest.</td></tr>
+          <tr><td>YooKassa</td><td><span class="status test">Sandbox validated</span></td><td>Test checkout and refunds; live use requires an eligible merchant contract.</td></tr>
+          <tr><td>PayDunya</td><td><span class="status pause">Temporarily disabled</span></td><td>Connector retained; external sandbox routes require provider confirmation.</td></tr>
+          <tr><td>Stripe</td><td><span class="status ready">Connector available</span></td><td>Not activated in the current public demonstrations.</td></tr>
+          <tr><td>Pay at restaurant / delivery</td><td><span class="status ok">Available</span></td><td>Fallback method independent of online providers.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section security">
+    <div class="shell split">
+      <div>
+        <p class="eyebrow">SECURITY & PRIVACY</p>
+        <h2>Business workflows backed by server-side controls.</h2>
+      </div>
+      <ul class="security-list"><li>CSRF, origin checks, CSP and hardened security headers</li><li>OTP stored as protected verification state, not plain reusable codes</li><li>Provider payments confirmed server-side with idempotent webhooks</li><li>Encrypted Web Push subscription material and retention controls</li><li>Customer export, anonymization and encrypted backup workflows</li><li>Native API disabled by default until the next product phase</li></ul>
+    </div>
+  </section>
+
+  <section class="section shell" id="quality">
+    <p class="eyebrow">QUALITY EVIDENCE</p>
+    <h2>Release facts, not marketing estimates.</h2>
+    <div class="quality-grid">
+      <div><strong>v2.1.1</strong><span>stable web release</span></div><div><strong>216</strong><span>automated tests passed</span></div><div><strong>85</strong><span>templates compiled</span></div><div><strong>PASS</strong><span>language audit</span></div><div><strong>PASS</strong><span>final QA</span></div><div><strong>PASS</strong><span>official release gate</span></div>
+    </div>
+  </section>
+
+  <section class="section native">
+    <div class="shell callout-grid">
+      <div><p class="eyebrow">NEXT PRODUCT PHASE</p><h2>Native iOS and Android client application.</h2><p>The stable web platform remains the authoritative backend. The next separate project will add token-based mobile authentication, device revocation, native push registration, ordering, tracking and hosted payment deep links.</p></div>
+      <div class="roadmap"><span>1 · API contract</span><span>2 · Authentication</span><span>3 · Menu & cart</span><span>4 · Orders & tracking</span><span>5 · Native push</span></div>
+    </div>
+  </section>
+
+  <section class="section callout">
+    <div class="shell callout-grid">
+      <div><p class="eyebrow">PUBLIC SHOWCASE ONLY</p><h2>Commercial source maintained separately.</h2><p>This repository contains product presentation, anonymized visuals, architecture and quality evidence. It intentionally excludes credentials, customer data, database backups and the complete commercial source code.</p></div>
+      <div class="actions"><a class="button primary" href="https://github.com/Ousmane-Tr25" target="_blank" rel="noopener noreferrer">Contact via GitHub</a><a class="button secondary" href="KNOWN_LIMITATIONS.md">Known limits</a></div>
+    </div>
+  </section>
+</main>
+<footer class="footer shell"><span>© 2026 Ousmane Traoré · Smart Restaurant Platform</span><div><a href="fr.html">Français</a><a href="https://github.com/Ousmane-Tr25/smart-restaurant-platform-showcase">Repository</a></div></footer>
+</body></html>

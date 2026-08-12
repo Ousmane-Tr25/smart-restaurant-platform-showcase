@@ -1,14 +1,22 @@
-# Project facts
+# Project facts — v2.1.1
 
-- Product: Smart Restaurant Platform / Bamako Délices
-- Official release: 1.0.2
-- Backend: FastAPI, Jinja2, SQLAlchemy
-- Database: PostgreSQL 16
-- Infrastructure: Docker and Docker Compose
-- Client delivery: responsive web application and PWA
-- Interface languages: French, Russian, English, Chinese, Bambara
-- Operational roles: manager, multi-purpose employee, kitchen, cashier, courier
-- Release validation: 91 automated tests, 72 compiled Jinja templates, official release gate passed
-- Live demo: https://bamako-delices-demo.onrender.com/menu
-- Public repository purpose: portfolio and product showcase only
-- Commercial source: private; access available selectively on request
+- Product: Smart Restaurant Platform
+- Stable web release: 2.1.1
+- Architecture: independent white-label deployment per restaurant
+- Backend: Python 3.12, FastAPI, SQLAlchemy, Jinja2
+- Database: PostgreSQL with Alembic migrations
+- Infrastructure: Docker, Render and Neon-compatible deployment
+- Client delivery: responsive web application and installable PWA
+- Public interface languages: Bambara, French, Russian, English, Chinese
+- Certified administration core: French, English, Russian
+- Roles: owner, administrator, manager, cashier/seller, kitchen, delivery, support, secure customer
+- Quality: 216 automated tests; 85 Jinja templates; language audit PASS; Final QA PASS; official release gate PASSED
+- Mali demo: https://bamako-delices-demo.onrender.com/menu?v=211
+- Russia demo: https://smart-restaurant-ru-test.onrender.com/menu?v=211
+- YooKassa: sandbox checkout/refunds validated; no real money
+- Brevo email OTP: functional
+- Web Push VAPID: functional, sensitive subscription material encrypted at rest
+- PayDunya: connector retained but temporarily disabled pending external sandbox confirmation
+- Native application: next separate product phase, not yet published
+- Public repository purpose: product presentation and portfolio only
+- Commercial source: maintained separately

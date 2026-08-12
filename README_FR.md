@@ -1,25 +1,30 @@
-# Smart Restaurant Platform — Présentation publique
+# Smart Restaurant Platform — Vitrine publique v2.1.1
 
-Cette vitrine présente une plateforme complète de gestion de restaurant : menu numérique, commandes, cuisine, caisse, réservations, fidélité, livraison et suivi du livreur.
+Cette vitrine présente une plateforme web white-label complète pour restaurants : menu, commande, comptes clients sécurisés, caisse, cuisine, livraison, fidélité, paiements, analyses, confidentialité et personnalisation visuelle.
 
-**Démonstration publique : [bamako-delices-demo.onrender.com/menu](https://bamako-delices-demo.onrender.com/menu)**
+- **216 tests automatisés réussis**
+- **85 templates Jinja compilés**
+- **Audit linguistique : PASS**
+- **Final QA : PASS**
+- **Release gate officiel : PASSED**
 
-Le paiement, les SMS et les notifications restent en mode démonstration. Les testeurs doivent utiliser uniquement des noms, numéros et adresses fictifs. Après une période d’inactivité, l’hébergement gratuit peut nécessiter un court délai de démarrage.
+## Démonstrations
 
-Le code source commercial complet est conservé dans un dépôt privé. Cette version publique contient uniquement la présentation du produit, des captures anonymisées, l’architecture et les résultats de qualité.
+- [Bamako Délices — Mali / FCFA](https://bamako-delices-demo.onrender.com/menu?v=211)
+- [Smart Restaurant RU Test — Russie / RUB](https://smart-restaurant-ru-test.onrender.com/menu?v=211)
 
-## Points principaux
+La démonstration russe utilise YooKassa Sandbox : aucun argent réel n’est déplacé. PayDunya reste temporairement désactivé dans la démo Mali à cause d’un problème externe de sandbox.
 
-- parcours client mobile en quatre étapes ;
-- commandes sur place, à emporter, par QR de table et en livraison ;
-- administration, cuisine, caisse, impression et rapports ;
-- gestion du menu, des stocks, ingrédients, recettes et fournisseurs ;
-- programme de fidélité, bonus et codes promotionnels ;
-- rôles séparés pour le gérant, la cuisine, la caisse et le livreur ;
-- trajet du livreur et suivi côté client ;
-- PostgreSQL, Docker, sauvegardes et contrôles d’intégrité ;
-- cinq langues et PWA Android/iPhone ;
-- version officielle stable `v1.0.2` ;
-- 91 tests automatisés validés et 72 templates Jinja compilés.
+## Comptes clients
 
-Pour une présentation technique complète ou un accès de recrutement au dépôt privé, contacter l’auteur via son profil GitHub : [Ousmane-Tr25](https://github.com/Ousmane-Tr25).
+Le menu peut rester public et la commande invitée peut être autorisée. Lorsqu’un client utilise son compte OTP vérifié, il accède uniquement à ses commandes, réservations, bonus, avis et conversations personnelles.
+
+## Analyses
+
+La plateforme fournit des analyses descriptives : chiffre d’affaires, panier moyen, marges, coûts, produits populaires, clients, fidélité, avis et rapports. Les modèles prédictifs de Machine Learning ne font pas encore partie de la v2.1.1.
+
+## Code source
+
+Le code commercial complet est conservé séparément. Ce dépôt public ne contient aucun secret, donnée client, sauvegarde ou configuration de production.
+
+[Ouvrir la vitrine](https://ousmane-tr25.github.io/smart-restaurant-platform-showcase/fr.html) · [Profil GitHub](https://github.com/Ousmane-Tr25)
